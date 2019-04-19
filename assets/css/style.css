@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background: url("../assets/bgautumn.jpg");
+    background: url("../images/bgautumn.jpg");
     background-size: 100%;
 }
 a {
@@ -24,7 +24,7 @@ p, ul {
     font-family: 'Merriweather', serif;
 }
 
-h3 {
+h4 {
     font-family: 'PT Sans Caption', sans-serif;
     text-align: center;
     /* color: black; */
@@ -48,8 +48,9 @@ h3 {
     /* color: #cccccc; */
     color: black;
     text-align: center;
-    background: #FFDAB9;
-    border-top: 3px solid #dddddd;
+    background: rgba(255, 218, 185, 0);
+    /* border-top: 3px solid #dddddd; */
+    /* border: 3px solid #dddddd; */
   }
 
 .socialLinks img{
@@ -72,17 +73,25 @@ h3 {
 }
 
 #pageHeading {
-    margin-bottom: 25px;;
+    margin-bottom: 25px;
 }
 
 #projects img{
-    border: 3px solid black;
-    height: 60%;
-    /* width: fit-content; */
-    margin: 0 auto;
+    border: 3px solid brown;
+    height: 50%; 
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.organizations {
+    height: 200px;
+    width: 100%;
 }
 
 #bootcampProjs {
-    border: 3px solid black;
-    width: fit-content;
+     /* border: 3px solid black; */
+    /* border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 68, 0, 0.356); */
 }
